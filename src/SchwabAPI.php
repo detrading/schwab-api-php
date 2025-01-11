@@ -1,20 +1,20 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI;
+namespace detrading\SchwabAPI;
 
 
-use MichaelDrennen\SchwabAPI\Exceptions\RequestException;
-use MichaelDrennen\SchwabAPI\RequestTraits\AccountRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\InstrumentsRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\MarketHoursRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\MoversRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\OptionChainsRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\OptionExpirationChainRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\OrderRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\PriceHistoryRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\QuotesRequests;
-use MichaelDrennen\SchwabAPI\RequestTraits\RequestTrait;
-use MichaelDrennen\SchwabAPI\RequestTraits\UserPreferenceRequests;
+use detrading\SchwabAPI\Exceptions\RequestException;
+use detrading\SchwabAPI\RequestTraits\AccountRequests;
+use detrading\SchwabAPI\RequestTraits\InstrumentsRequests;
+use detrading\SchwabAPI\RequestTraits\MarketHoursRequests;
+use detrading\SchwabAPI\RequestTraits\MoversRequests;
+use detrading\SchwabAPI\RequestTraits\OptionChainsRequests;
+use detrading\SchwabAPI\RequestTraits\OptionExpirationChainRequests;
+use detrading\SchwabAPI\RequestTraits\OrderRequests;
+use detrading\SchwabAPI\RequestTraits\PriceHistoryRequests;
+use detrading\SchwabAPI\RequestTraits\QuotesRequests;
+use detrading\SchwabAPI\RequestTraits\RequestTrait;
+use detrading\SchwabAPI\RequestTraits\UserPreferenceRequests;
 
 
 class SchwabAPI {
@@ -185,7 +185,7 @@ class SchwabAPI {
      * @return void
      * @throws \Exception
      * @throws \GuzzleHttp\Exception\GuzzleException
-     * @throws \MichaelDrennen\SchwabAPI\Exceptions\RequestException
+     * @throws \detrading\SchwabAPI\Exceptions\RequestException
      */
     public function requestToken( bool $doRefreshToken = FALSE ): void {
         $options = [

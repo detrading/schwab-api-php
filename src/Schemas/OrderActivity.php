@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Schemas;
+namespace detrading\SchwabAPI\Schemas;
 
 
 class OrderActivity {
@@ -28,7 +28,7 @@ class OrderActivity {
     protected float $orderRemainingQuantity;
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\ExecutionLeg[]
+     * @var \detrading\SchwabAPI\Schemas\ExecutionLeg[]
      */
     protected array $executionLegs;
 

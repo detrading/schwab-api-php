@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Exceptions;
+namespace detrading\SchwabAPI\Exceptions;
 
 use Throwable;
 

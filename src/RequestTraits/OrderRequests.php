@@ -1,9 +1,9 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\RequestTraits;
+namespace detrading\SchwabAPI\RequestTraits;
 
 use Carbon\Carbon;
-use MichaelDrennen\SchwabAPI\SimpleActions\CreatePayloadEquity;
+use detrading\SchwabAPI\SimpleActions\CreatePayloadEquity;
 
 
 trait OrderRequests {

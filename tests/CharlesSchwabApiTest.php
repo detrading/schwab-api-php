@@ -1,10 +1,10 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Tests;
+namespace detrading\SchwabAPI\Tests;
 
 
 use GuzzleHttp\Client;
-use MichaelDrennen\SchwabAPI\SchwabAPI;
+use detrading\SchwabAPI\SchwabAPI;
 use PHPUnit\Framework\TestCase;
 
 

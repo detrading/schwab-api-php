@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Schemas;
+namespace detrading\SchwabAPI\Schemas;
 
 
 abstract class AbstractAccountsInstrument {

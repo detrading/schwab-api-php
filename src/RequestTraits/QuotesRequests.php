@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\RequestTraits;
+namespace detrading\SchwabAPI\RequestTraits;
 
 /**
  * @url https://developer.schwab.com/products/trader-api--individual/details/specifications/Market%20Data%20Production

@@ -1,10 +1,10 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\RequestTraits;
+namespace detrading\SchwabAPI\RequestTraits;
 
 
 use Carbon\Carbon;
-use MichaelDrennen\SchwabAPI\SchwabAPI;
+use detrading\SchwabAPI\SchwabAPI;
 
 
 /**

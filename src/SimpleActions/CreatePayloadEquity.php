@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\SimpleActions;
+namespace detrading\SchwabAPI\SimpleActions;
 
 
 class CreatePayloadEquity {

@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Schemas;
+namespace detrading\SchwabAPI\Schemas;
 
 
 class OrderLegCollection {
@@ -18,7 +18,7 @@ class OrderLegCollection {
 
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\AbstractAccountsInstrument
+     * @var \detrading\SchwabAPI\Schemas\AbstractAccountsInstrument
      */
     protected AbstractAccountsInstrument $instrument;
 

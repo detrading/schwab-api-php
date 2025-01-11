@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\RequestTraits;
+namespace detrading\SchwabAPI\RequestTraits;
 
 trait UserPreferenceRequests {
 

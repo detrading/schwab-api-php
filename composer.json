@@ -1,5 +1,5 @@
 {
-    "name": "michaeldrennen/schwab-api-php",
+    "name": "detrading/schwab-api-php",
     "description": "A PHP library to connect to the Charles Schwab API.",
     "type": "library",
     "require": {
@@ -13,14 +13,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MichaelDrennen\\SchwabAPI\\": "src/"
+            "detrading\\SchwabAPI\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Michael Drennen",
-            "email": "michaeldrennen74@gmail.com"
+            "name": "detrading"
         }
     ],
     "minimum-stability": "stable"
 }
+

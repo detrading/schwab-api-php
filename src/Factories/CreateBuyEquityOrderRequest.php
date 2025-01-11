@@ -1,10 +1,10 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Factories;
+namespace detrading\SchwabAPI\Factories;
 
 
-use MichaelDrennen\SchwabAPI\Schemas\Instrument;
-use MichaelDrennen\SchwabAPI\Schemas\OrderRequest;
+use detrading\SchwabAPI\Schemas\Instrument;
+use detrading\SchwabAPI\Schemas\OrderRequest;
 
 class CreateBuyEquityOrderRequest {
 

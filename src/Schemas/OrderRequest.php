@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelDrennen\SchwabAPI\Schemas;
+namespace detrading\SchwabAPI\Schemas;
 
 
 class OrderRequest {
@@ -112,7 +112,7 @@ class OrderRequest {
 
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\OrderLegCollection[]
+     * @var \detrading\SchwabAPI\Schemas\OrderLegCollection[]
      */
     protected array $orderLegCollection;
 
@@ -172,17 +172,17 @@ class OrderRequest {
 
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\OrderActivity[]
+     * @var \detrading\SchwabAPI\Schemas\OrderActivity[]
      */
     protected array $orderActivityCollection;
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\OrderRequest[]
+     * @var \detrading\SchwabAPI\Schemas\OrderRequest[]
      */
     protected array $replacingOrderCollection;
 
     /**
-     * @var \MichaelDrennen\SchwabAPI\Schemas\OrderRequest[]
+     * @var \detrading\SchwabAPI\Schemas\OrderRequest[]
      */
     protected array $childOrderStrategies;
 
